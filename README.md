@@ -15,3 +15,10 @@ mkdir pages
 cd pages 
 
 touch index.ts
+
+export default function Home() {
+    return (
+        <>
+        </>
+    )
+} 
