@@ -14,7 +14,7 @@ mkdir pages
 
 cd pages 
 
-touch index.ts
+touch index.tsx
 
 export default function Home() {
     return (
