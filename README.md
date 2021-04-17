@@ -24,3 +24,5 @@ export default function Home() {
 } 
 
 npm install --save-dev typescript @types/react
+
+./pages/_app.tsx
