@@ -6,27 +6,30 @@ npm install react
 
 npm install react-dom
 
+```json
 "scripts": {
   "dev": "next dev"
 }
+```
 
 mkdir pages
 
 cd pages 
 
 touch index.tsx
-
+```tsx
 export default function Home() {
     return (
         <>
         </>
     )
-} 
+}
+```
 
 npm install --save-dev typescript @types/react
 
 ./pages/_app.tsx
-
+```tsx
 import { AppProps } from 'next/app';
 import Head from 'next/head';
 
@@ -40,3 +43,4 @@ export default function MyApp({Component, pageProps}: AppProps) {
         </>
     )
 }
+```
